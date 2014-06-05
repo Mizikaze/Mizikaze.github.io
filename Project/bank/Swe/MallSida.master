@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MallSida.master.cs" Inherits="MallSida" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="logopic"><img src="../Pics/logopic.png" /></div>
+        <div id="logo">
+            <img src="../pics/logo.png" />
+            <img src="../Pics/empty.png" style="height: 0px; width: 17px" />
+            <a href="../Swe/Hem.aspx"> <img src="../Pics/swe.png" /></a>
+            <a href="../Eng/Home.aspx"> <img src="../Pics/eng.png" /></a>
+        </div>
+        <div id="page">
+            <div id="menutop">
+                <li class ="topmenu"><a href="Hem.aspx">Hem</a></li>
+                <li class ="topmenu"><a href="Omoss.aspx">Om oss</a></li>
+            </div>
+            <div id ="menuleft">
+                <li class ="leftmenu"><a href="Lån.aspx">Lån</a></li>
+                <li class ="leftmenu"><a href="Sparande.aspx">Sparande</a></li>
+                <li class ="leftmenu"><a href="Pensionswe.aspx">Pension</a></li>
+                <li class ="leftmenu"><a href="Försäkring.aspx">Försäkring</a></li>
+            </div>
+        
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

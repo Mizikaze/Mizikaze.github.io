@@ -1,0 +1,117 @@
+﻿*
+{
+    font-size:medium;
+    font-family:Sans-Serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body 
+{
+    background-image: url(pics/dark_wall.png);
+}
+
+#page
+{
+    text-align:center;
+    
+}
+
+#header
+{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#head
+{
+    position:absolute;
+    top:0;
+    z-index:-1;
+}
+
+#logo
+{
+    padding-top:15px;
+}
+
+#login
+{
+    text-align: left;
+}
+
+#menu
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    height:32px;
+    padding-top:0px;
+    margin-top:0px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-image: -ms-linear-gradient(top, #E0E0E0 0%, #757575 80%);
+    background-image: -moz-linear-gradient(top, #E0E0E0 0%, #757575 80%);
+    background-image: -o-linear-gradient(top, #E0E0E0 0%, #757575 80%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E0E0E0), color-stop(1, #757575));
+    background-image: -webkit-linear-gradient(top, #E0E0E0 0%, #757575 80%);
+    background-image: linear-gradient(to bottom, #E0E0E0 0%, #757575 80%);
+    overflow:hidden;
+}
+
+li
+{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+    float:left;
+    border-right: 1px solid black;
+    font-size:large;
+    height: 32px;
+    
+}
+
+a
+{
+    text-decoration:none;
+    color:Black;
+}
+
+a:visited
+{
+    color:Black;
+}
+
+a:hover
+{
+    color:Aqua;
+}
+
+.övriga
+{
+    padding-top: 5px;
+    width: 82px;
+}
+
+.conteiner
+{
+    margin-left:auto;
+    margin-right:auto;
+    width: 800px;
+    border: 2px solid #D3D3D3;
+    background-image: url(Pics/conteiner.png);
+    font-size:large;
+}
+
+#lbltxt
+{
+    
+}
+
+#showpics
+{
+    text-align:center;
+}
+

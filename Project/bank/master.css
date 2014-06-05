@@ -1,0 +1,114 @@
+﻿body 
+{
+    background-image: url(Pics/furley_bg.png);
+}
+
+#logopic
+{
+    position:absolute;
+    margin-left:15px;
+}
+
+#logo
+{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#page
+{
+    
+}
+
+#menutop
+{
+    margin-left:101px;
+    margin-right:auto;
+    width:93%;
+    height:32px;
+    padding-top:0px;
+    margin-top:0px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    overflow:hidden;
+    background-color:#f1f0db;
+}
+
+li
+{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    border-right: 1px solid black;
+    font-size:large;
+    height: 32px;
+    
+}
+
+a
+{
+    text-decoration:none;
+    color:Black;
+}
+
+a:visited
+{
+    color:Black;
+}
+
+a:hover
+{
+    color:Aqua;
+}
+
+.topmenu
+{
+    padding-top: 5px;
+    width: 82px;
+    float:left;
+    text-align:center;
+}
+
+#menuleft
+{
+    width:100px;
+    height:100%;
+    padding-top:0px;
+    margin-top:0px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    overflow:hidden;
+    float:left;
+    background-color:#f1f0db;
+}
+
+.leftmenu
+{
+    padding-left:-30px;
+    padding-top: 5px;
+    width: 82px;
+    text-align:left;
+}
+
+.conteiner
+{
+    
+    background-color:rgba(150, 150, 150, 0.60);
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    width:85%;
+}
+
+.text
+{
+    font-family:sans-serif;
+}
+
+#happy
+{
+    text-align:right;
+}

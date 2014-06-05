@@ -1,0 +1,96 @@
+﻿<html>
+    <head>
+        <title>Gallery</title>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="Stylesheet" href="style.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="library.js"></script>
+        <script src="gallery.js"></script>
+        <script type="text/javascript">
+            {
+                pic1 = new Image();
+                pic1.src = "pics/pic1.png";
+                pic2 = new Image();
+                pic2.src = "pics/pic2.png";
+                pic3 = new Image();
+                pic3.src = "pics/pic3.png";
+                pic4 = new Image();
+                pic4.src = "pics/pic4.png";
+                pic5 = new Image();
+                pic5.src = "pics/pic5.png";
+
+                pic6 = new Image();
+                pic6.src = "pics/pic6.png";
+                pic7 = new Image();   
+                pic7.src = "pics/pic7.png";
+                pic8 = new Image();  
+                pic8.src = "pics/pic8.png";
+                pic9 = new Image();  
+                pic9.src = "pics/pic9.png";
+                pic10 = new Image();
+                pic10.src = "pics/pic10.png";
+            }
+        </script>
+    </head>
+            <h1><a href="../index.html"><img src ="../head.png"</h1></a>
+
+    <body>
+        <div id="content">
+            <div class="menu">
+                <li><a href="../About me/">About me</a></li>
+                <li><a href="../Journal/">Journal</a></li>
+                <li><a href="../Project/">Project</a></li>
+                <li><a href="../Picture/">Picture</a></li>
+                <li><a href="../Links/">Links</a></li>
+            </div>
+        </div>
+            <div id="smallImage">
+                <img src="pics/pic1.png" alt="" />
+		        <img src="pics/pic2.png" alt="" />
+		        <img src="pics/pic3.png" alt="" />
+		        <img src="pics/pic4.png" alt="" />
+		        <img src="pics/pic5.png" alt="" />
+
+                <img src="pics/pic6.png" alt="" />
+		        <img src="pics/pic7.png" alt="" />
+		        <img src="pics/pic8.png" alt="" />
+		        <img src="pics/pic9.png" alt="" />
+		        <img src="pics/pic10.png" alt="" />
+            </div>
+        
+        <div id="zoomIn">
+            <div id="swag">
+                <div id="zoomImage" onclick="zoomImage_click();">
+                    <img alt="" src=""/>
+                </div>
+            
+                <div id="yolo">
+                    <div id="thumb_img">
+                        <img src='pics/pic1.png' onclick='thumbImage_click("pics/pic1.png");'>
+                        <img src='pics/pic2.png' onclick='thumbImage_click("pics/pic2.png");'>
+                        <img src='pics/pic3.png' onclick='thumbImage_click("pics/pic3.png");'>
+                        <img src="pics/pic4.png" onclick='thumbImage_click("pics/pic4.png");'>
+		                <img src="pics/pic5.png" onclick='thumbImage_click("pics/pic5.png");'>
+
+                        <img src="pics/pic6.png"  onclick='thumbImage_click("pics/.pic6.png");'>
+		                <img src="pics/pic7.png"  onclick='thumbImage_click("pics/pic7.png");'>
+		                <img src="pics/pic8.png"  onclick='thumbImage_click("pics/pic8.png");'>
+		                <img src="pics/pic9.png"  onclick='thumbImage_click("pics/pic9.png");'>
+		                <img src="pics/pic10.png"  onclick='thumbImage_click("pics/pic10.png");'>
+                    </div>​
+                </div>
+            
+                <table class="arrows">
+                    <tr>
+                        <th id="prevRow">
+                            <img alt="Previous picture" src="pics/arrowleft.png" />
+                        </th>
+                        <th id="nextRow">
+                            <img alt="Next picture" src="pics/arrowright.png" />
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

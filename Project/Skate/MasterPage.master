@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="MasterStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header">
+
+            <div id="head"><img src="pics/head.jpg" style="height: 70px; width: 400px"/></div>
+
+            <div id ="logo">
+                <a href="Home.aspx"><img src="pics/Logo.png"/></a>
+            </div>
+        </div>
+        <div id="page">
+            <div id="menu">
+                <li class ="övriga"><a href="Podukter.aspx">Produkter</a></li>
+                <li class ="övriga"><a href="Rea.aspx">Rea</a></li>
+                <li class ="övriga"><a href="Tävlingar.aspx">Tävlingar</a></li>
+                <li class ="övriga"><a href="Kontakt.aspx">Kontakt</a></li>
+                <li id ="sista"><a href="Kundvagn.aspx"><img src="pics/kundicon.png"/></a></li>
+             </div>
+
+            <div class="conteiner">
+            <%--Här ska sidernas saker läggas.--%>
+            </div>
+
+        </div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </div>
+    </form>
+</body>
+</html>

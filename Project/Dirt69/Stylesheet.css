@@ -1,0 +1,352 @@
+﻿body 
+{
+background-image:url('BG2.png');
+font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+color: #F2EBEB;
+}
+
+
+#Register
+{
+    top:0;
+    right:0;
+    position:absolute; 
+}
+
+
+#Return 
+{
+    top:0;
+    right:0;
+    position:absolute;
+
+}
+
+#LyckadInloggning 
+{
+    top:11px;
+    right:106px;
+    position:absolute;
+    width: 151px;
+    height: 30px;
+}
+
+#MisslyckadInloggning
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+IMG.Logga2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#LoginDirt
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LabelRegister
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Login 
+{
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+
+	text-indent:-1px;
+	border:3px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:Comic Sans MS;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:39px;
+	line-height:32px;
+	width:83px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: 85px;
+}
+
+
+#Signout 
+{
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+
+	text-indent:-1px;
+	border:3px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:Comic Sans MS;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:47px;
+	line-height:32px;
+	width:89px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: 107px;
+
+    top:0;
+    right:0;
+    position:absolute; 
+}
+
+#RegisterButton
+{
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+
+	text-indent:-1px;
+	border:3px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:Comic Sans MS;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:38px;
+	line-height:32px;
+	width:115px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: 107px;
+}
+
+
+.Login:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+    background-color:#e9e9e9;
+}
+
+.Login:active 
+{
+	position:relative;
+	top:1px;
+}
+
+#LabelError
+{
+    color:red;
+}
+
+#UserNameLabel
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PasswordLabel
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PasswordLabel2
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#UserName
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Password
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#RegisterButton
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LabelError
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#fuck
+{
+    width: 153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#RequiredFieldValidator1
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#RequiredFieldValidator2
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Password2
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LabelBekraftaLosenord
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CompareValidator1
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#RangeValidator1
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ImageSwap 
+{
+  position:relative;
+  margin:0 auto;
+
+}
+
+
+#ImageSwap img 
+{
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#ImageSwap img.top:hover 
+{
+  opacity:0;
+}
+
+.bottom
+{
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+}
+
+.top
+{
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+}
+
+#Facebook
+{
+    position: fixed;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    width: 100%;
+    left: 0px;
+}
+
+#Footer 
+{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

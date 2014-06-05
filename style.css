@@ -1,0 +1,136 @@
+body
+{
+    background-color:#202020;
+    background-image:url('back2.png');
+    background-repeat:repeat;
+    font-family:Sans-Serif;
+}
+head
+{
+      
+}
+
+h1
+{
+    text-align:center;
+}
+
+#sponsor 
+{
+    font-family:'Times New Roman';
+    font-size:large;
+    font-style:oblique;
+    text-decoration:underline;
+    color:#0053ff;
+}
+
+#sponsor:hover
+{
+    color:#00c1ff;
+}
+
+#content  
+{
+    background-image:url('Textboard.png');
+    width:590px;
+    margin:auto;
+    padding-bottom:20px;
+    
+}
+
+.menu 
+{
+    background-image:url('menu.png');
+    background-repeat:no-repeat;
+    padding-bottom:10px;
+}
+
+
+li
+{
+    list-style-type:none;
+    font-style:normal;
+    font-size:large;
+    display:inline;
+    margin-left:10px;
+    margin-right:35px;
+    
+	text-shadow:
+    -1px -1px 0 #333,  
+     1px -1px 0 #333,
+    -1px 1px 0 #333,
+     1px 1px 0 #333,
+    -1px 0px 0 #333,  
+     0px -1px 0 #333,
+     0px 1px 0 #333,
+     1px 0px 0 #333;
+}
+
+a 
+{
+    color:#668300;
+    text-decoration:none;
+    
+}
+
+a:hover 
+{
+    color:#fff;
+}
+
+#text
+{
+    font-style:normal;
+    font-size:medium;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#box
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 760px;
+    overflow: hidden;
+}
+    
+.gameControl2
+{
+    color:#AF24FF;
+    text-align: left;
+    margin-top:10;
+    font-family:Arial Black;
+    font-size: medium;
+    margin-left: 0px;
+}
+
+.gameControl1
+{
+    color:#C90000;
+    text-align: left;
+    margin-top: -23px;
+    font-family:Arial Black;
+    font-size: medium;
+    margin-left:910px;
+    margin-top:-127px;
+}
+
+.journalbox1
+{
+    border:1px, solid black;
+    font-style:normal;
+    font-size:medium;
+    margin-left:30px;
+    margin-right:30px;
+    float:left;
+}
+
+.journalbox2
+{
+    border:1px, solid black;
+    font-style:normal;
+    font-size:medium;
+    margin-left:30px;
+    margin-right:30px;
+}
